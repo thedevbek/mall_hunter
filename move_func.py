@@ -1,4 +1,4 @@
-from shops_dic import shops
+from shopsInMall import shops
 from starting_status import status
 import time
 

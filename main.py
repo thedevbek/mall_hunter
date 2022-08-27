@@ -1,8 +1,6 @@
 import typewriter_affect_intro
-# from shops_dic import shops
-# from starting_shop import status
 import instructions
-
+import shopsInMall
 ## delay = 1.5
 # starting_shop = 'Atrium'
 # starting_inventory = 0
@@ -15,4 +13,4 @@ def main():
     if __name__ == '__main__':
             typewriter_affect_intro()
             instructions()
-            
+            shopsInMall.play()

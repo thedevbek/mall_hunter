@@ -16,8 +16,3 @@ def typewriter_affect_intro():
 typewriter_affect_intro()
 
 
-# for loop is going over every character in the beginning into statement and print it.
-# sys standard for system. 
-# sys.stdout.write prints to the screen. Unlike the print function it does not print a new line. It is also supposed to print the number of characters at the end.
-#sys.stdout.flush() pushes out all the data that has been buffered to that point to a file object. While using stdout, data is stored in buffer memory (for some time or until the memory gets filled) before it gets written to terminal. Using flush() forces to empty the buffer and write to terminal even before buffer has empty space.
-# I don't need # os.system('clear') after if statement is executed.
